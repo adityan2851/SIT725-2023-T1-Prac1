@@ -1,5 +1,5 @@
 function changeText(){
-    var textArray = ["Text 1","Text 2"];
+    var textArray = ["Sample","Random","Text"];
     var number = getRandomNumberBetween(0,textArray.length-1);
     document.getElementById("heading").innerHTML = textArray[number];
 };
